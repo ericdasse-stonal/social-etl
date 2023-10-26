@@ -1,0 +1,15 @@
+[tool.poetry]
+authors = ["Eric Dasse <eric.dasse@stonal.com>"]
+description = ""
+license = "MIT"
+name = "social-etl"
+readme = "README.md"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+praw = "^7.7.1"
+python = "^3.10"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
